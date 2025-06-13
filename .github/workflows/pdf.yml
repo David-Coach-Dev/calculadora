@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: js-action-cf
+      uses: David-Coach-Dev/js-action-cf@v1.0
+      with:
+        who-to-greet: "hola de parte Dc DEv"
     - name: Tener copia local del repo
       uses: actions/checkout@v4.2.2
 
